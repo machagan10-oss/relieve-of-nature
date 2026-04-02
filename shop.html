@@ -45,17 +45,25 @@
   <p>Deeply nourishing botanical formula for soft, healthy feet.</p>
 
   <select id="footLotion">
-    <option value=https://<script async
-  src="https://js.stripe.com/v3/buy-button.js">
-</script>
-
-<stripe-buy-button
-  buy-button-id="buy_btn_1THOM5Is38QVYxhRExZ8v4kE"
-  publishable-key="pk_test_51TGaPhIs38QVYxhRyI5D8ChFRMjOSYQE9ljZPbbNcLCd0b7lnxZMTgDg04R8zBQYUK6nHBZYku6B19aaVrjk0wMj001H9WFitN"
->
-</stripe-buy-button>
+    <option value="https://buy.stripe.com/test_28E7sL7smeqh9OFdyj8Zq0c">80ml - £48</option>
+    <option value="https://buy.stripe.com/test_5kQ9AT13Y2Hz0e5am78Zq0d">30ml - £18</option>
+    <option value="https://buy.stripe.com/test_bJe5kD2825TL0e5dyj8Zq0e">20ml - £12</option>
+  </select>
 
   <button onclick="buyNow('footLotion')">Buy Now</button>
 </div>
+
+  <button onclick="buyNow('footLotion')">Buy Now</button>
+</div>
+
+  <script>
+function buyNow(selectId) {
+  var url = document.getElementById(selectId).value;
+  window.location.href = url;
+}
+</script>
+
+</body>
+</html>
 
   
