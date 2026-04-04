@@ -60,3 +60,42 @@ border:none;
 padding:10px 16px;
 cursor:pointer;
 }
+.product {
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.product h3 {
+  color: #1b4332;
+}
+
+.product p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+button {
+  background: #2d6a4f;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1b4332;
+}
+
+body {
+  background-color: #f1f8f4;
+  font-family: Arial, sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  color: #1b4332;
+}
