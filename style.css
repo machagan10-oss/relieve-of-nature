@@ -1,17 +1,20 @@
-
-body{
-font-family:Arial;
-margin:0;
-background:#f6f5f1;
-color:#1f3d2b;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@300;400&display=swap');
+:root {
+  --primary: #1b4332;
+  --accent: #d8f3dc;
+  --gold: #c6a962;
+  --text: #2f3e34;
 }
 
-header{
-display:flex;
-justify-content:space-between;
-padding:20px;
-background:#14532d;
-color:white;
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f8f5;
+  color: var(--text);
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.5px;
 }
 
 nav a{
@@ -45,20 +48,31 @@ gap:30px;
 padding:40px;
 }
 
-.product{
-background:white;
-padding:20px;
-border-radius:8px;
-box-shadow:0 3px 8px rgba(0,0,0,0.1);
-text-align:center;
+.product {
+  background: white;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease;
 }
 
-button{
-background:#14532d;
-color:white;
-border:none;
-padding:10px 16px;
-cursor:pointer;
+.product:hover {
+  transform: translateY(-5px);
+}
+
+button {
+  background: var(--primary);
+  color: white;
+  padding: 12px 18px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+button:hover {
+  background: #163a28;
 }
 .product {
   background: #f9f9f9;
@@ -97,5 +111,13 @@ body {
 
 .page-title {
   text-align: center;
-  color: #1b4332;
+  font-size: 2.2rem;
+  margin: 30px 0;
+  color: var(--primary);
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
