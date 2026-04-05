@@ -121,3 +121,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.logo img {
+  height: 60px;
+}
