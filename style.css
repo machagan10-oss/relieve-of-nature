@@ -185,3 +185,6 @@ body {
   margin-top: 10px;
   line-height: 1.6;
 }
+.product p {
+  margin: 6px 0;
+}
