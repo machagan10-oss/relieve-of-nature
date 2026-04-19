@@ -198,3 +198,10 @@ body {
   margin-top: 10px;
   line-height: 1.6;
 }
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px 20px;
+}
