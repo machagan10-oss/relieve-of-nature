@@ -273,3 +273,7 @@ button:hover {
 .nav-links a:hover {
   color: #b48a5a;
 }
+
+.nav-links a {
+  letter-spacing: 0.5px;
+}
