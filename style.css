@@ -277,3 +277,9 @@ button:hover {
 .nav-links a {
   letter-spacing: 0.5px;
 }
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
