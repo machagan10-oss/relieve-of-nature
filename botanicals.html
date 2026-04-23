@@ -117,6 +117,13 @@
 </section>
 
  <script>
+function toggleMenu() {
+  var menu = document.getElementById("navLinks");
+  menu.classList.toggle("active");
+}
+</script> 
+
+ <script>
 function toggleBotanical(card) {
   const info = card.querySelector(".botanical-info");
   info.style.display = info.style.display === "block" ? "none" : "block";
