@@ -362,4 +362,8 @@ button:hover {
   margin-top: 10px;
   font-size: 13px;
   color: #666;
+} 
+
+body {
+  background: red;
 }  
