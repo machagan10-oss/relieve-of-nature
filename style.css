@@ -363,3 +363,7 @@ button:hover {
   font-size: 13px;
   color: #666;
 }  
+
+.botanical-card {
+  background: red;
+}  
