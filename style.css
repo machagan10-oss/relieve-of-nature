@@ -372,3 +372,13 @@ body {
 .botanical-card {
   background: red !important;
 } 
+
+.botanical-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 20px !important;
+}
+
+.botanical-card {
+  display: block !important;
+}  
