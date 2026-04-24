@@ -432,4 +432,8 @@ body {
   margin: 40px auto;   /* centers horizontally */
   padding: 0 20px;
 }  
+
+.botanical-info {
+  display: none !important;
+}  
  
