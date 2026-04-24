@@ -382,3 +382,9 @@ body {
 .botanical-card {
   display: block !important;
 }  
+
+.botanicals {
+  max-width: 1200px;
+  margin: 0 auto;   /* centers the whole section */
+  text-align: center;
+}  
