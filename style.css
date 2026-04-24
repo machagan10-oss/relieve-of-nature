@@ -349,13 +349,20 @@ button:hover {
 }  
 
 .botanical-card {
-  background: red !important; /* TEMP TEST */
-  padding: 20px;
-  border-radius: 10px;
+  background: #ffffff;
+  padding: 25px 15px;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  font-weight: 500;
 }
 
+/* Hover effect (luxury feel) */
 .botanical-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
 }
 
 .botanical-info {
