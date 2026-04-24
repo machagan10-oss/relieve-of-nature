@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Botanicals - Relieve of Nature</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Relieve of Nature</title>
+
+  <!-- CSS MUST BE HERE -->
+  <link rel="stylesheet" href="/style.css">
+
 </head>
 <body>
-<section class="botanicals">
 
-  <h2>Our Key Botanicals</h2>
-  <p>Click each ingredient to discover its benefits.</p>
+<nav class="navbar">
+  <div class="logo">
+    <a href="index.html">Relieve of Nature</a>
+  </div>
 
-  <div class="botanical-grid">
+  <div class="menu-toggle" onclick="toggleMenu()">
+    ☰
+  </div>
 
-    <!-- ITEM -->
-    <div class="botanical-card" onclick="toggleBotanical(this)">
-      <h3>Hibiscus</h3>
-      <div class="botanical-info">
-        <p>Known as the “Botox plant,” supporting youthful skin.</p>
-        <p>✔ Supports skin elasticity</p>
-        <p>✔ Helps reduce signs of aging</p>
-        <p>✔ Promotes a natural glow</p>
-      </div>
-    </div>
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="botanicals.html">Botanicals</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
 
     <div class="botanical-card" onclick="toggleBotanical(this)">
       <h3>Coconut Oil</h3>
