@@ -83,5 +83,17 @@ function toggleBotanical(card) {
 }
 </script>
 
+<script>
+function toggleBotanical(card) {
+  const info = card.querySelector(".botanical-info");
+
+  if (info.style.display === "block") {
+    info.style.display = "none";
+  } else {
+    info.style.display = "block";
+  }
+}
+</script>  
+
 </body>
 </html>
