@@ -338,9 +338,8 @@ button:hover {
 
 .botanical-grid {
   display: grid !important;
-  grid-template-columns: repeat(5, 1fr) !important;
+  grid-template-columns: repeat(3, 1fr) !important;
   gap: 20px;
-  padding: 30px 20px;
 }
 
 @media (max-width: 768px) {
@@ -350,12 +349,9 @@ button:hover {
 }  
 
 .botanical-card {
-  background: #ffffff;
+  background: red !important; /* TEMP TEST */
   padding: 20px;
-  border-radius: 12px;
-  text-align: center;
-  cursor: pointer;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  border-radius: 10px;
 }
 
 .botanical-card:hover {
