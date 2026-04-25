@@ -532,4 +532,8 @@ section, div {
 .botanical-item {
   cursor: pointer;
   margin-bottom: 20px;
+} 
+
+.botanical-info {
+  display: none;
 }  
