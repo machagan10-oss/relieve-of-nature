@@ -476,3 +476,51 @@ section, div {
 .botanical-info {
   display: none !important;
 }
+
+/* BREAK FROM SHOP LAYOUT */
+.botanicals {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* GRID ACROSS PAGE */
+.botanical-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+/* POWER BUTTON STYLE */
+.botanical-card {
+  background: #ffffff;
+  padding: 30px 15px;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT (LUXURY FEEL) */
+.botanical-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+/* TITLE CLEAN */
+.botanical-card h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* HIDDEN INFO */
+.botanical-info {
+  display: none;
+  margin-top: 12px;
+  font-size: 13px;
+  color: #555;
+}  
