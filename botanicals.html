@@ -1,111 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Relieve of Nature</title>
-
-  <!-- CSS MUST BE HERE -->
-  <link rel="stylesheet" href="/style.css">
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Botanicals</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav class="navbar">
-<!-- START CLEAN SECTION -->
-<section class="botanicals">  
-  <div class="logo">
-    <a href="index.html">Relieve of Nature</a>
-  </div>
-
-  <div class="menu-toggle" onclick="toggleMenu()">
-    ☰
-  </div>
-
-  <div class="nav-links" id="navLinks">
-    <a href="index.html">Home</a>
-    <a href="shop.html">Shop</a>
-    <a href="botanicals.html">Botanicals</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </div>
-
+<header>
+<div class="logo">Relieve of Nature</div>
+<nav>
+<a href="index.html">Home</a>
+<a href="shop.html">Shop</a>
+<a href="botanicals.html">Botanicals</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
 </nav>
+</header>
 
-<section class="botanicals">
+<h1 class="page-title">Our Botanicals</h1>
 
-  <h2>Our Key Botanicals</h2>
-  <p>Click each ingredient to discover its benefits.</p>
+<section class="products">
 
-  <div class="botanical-grid">
+<div class="product">
+<h3>Hibiscus</h3>
+<p>Rich in antioxidants, supports glowing skin.</p>
+</div>
 
-    <div class="botanical-card" onclick="toggleBotanical(this)">
-      <h3>Coconut Oil</h3>
-      <div class="botanical-info">
-        <p>Deep hydration and protection.</p>
-        <p>✔ Locks in moisture</p>
-        <p>✔ Softens skin</p>
-        <p>✔ Prevents dryness</p>
-      </div>
-    </div>
+<div class="product">
+<h3>Coconut Oil</h3>
+<p>Deeply moisturizes and nourishes skin.</p>
+</div>
 
-    <div class="botanical-card" onclick="toggleBotanical(this)">
-      <h3>Aloe Vera</h3>
-      <div class="botanical-info">
-        <p>Soothing and healing botanical.</p>
-        <p>✔ Calms irritation</p>
-        <p>✔ Repairs skin</p>
-        <p>✔ Hydrates lightly</p>
-      </div>
-    </div>
+<div class="product">
+<h3>Aloe Vera</h3>
+<p>Soothes and hydrates sensitive skin.</p>
+</div>
 
-    <div class="botanical-card" onclick="toggleBotanical(this)">
-      <h3>Hibiscus</h3>
-      <div class="botanical-info">
-        <p>Supports youthful skin.</p>
-        <p>✔ Improves elasticity</p>
-        <p>✔ Reduces aging signs</p>
-        <p>✔ Enhances glow</p>
-      </div>
-    </div>
-
-  </div>
+<div class="product">
+<h3>Mango Butter</h3>
+<p>Softens and protects skin barrier.</p>
+</div>
 
 </section>
-
- <script>
-function toggleMenu() {
-  var menu = document.getElementById("navLinks");
-  menu.classList.toggle("active");
-}
-</script> 
-
- <script>
-function toggleBotanical(card) {
-  const info = card.querySelector(".botanical-info");
-  info.style.display = info.style.display === "block" ? "none" : "block";
-}
-</script>
-
-<script>
-function toggleBotanical(card) {
-  const info = card.querySelector(".botanical-info");
-
-  if (info.style.display === "block") {
-    info.style.display = "none";
-  } else {
-    info.style.display = "block";
-  }
-}
-</script>  
-
-<script>
-function toggleBotanical(card) {
-  const info = card.querySelector(".botanical-info");
-
-  info.style.display =
-    info.style.display === "block" ? "none" : "block";
-}
-</script>  
 
 </body>
 </html>
