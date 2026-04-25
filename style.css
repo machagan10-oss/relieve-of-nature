@@ -553,3 +553,7 @@ section, div {
 .botanical-item.active .botanical-info {
   display: block;
 } 
+
+.botanical-item {
+  border: 3px solid red;
+}  
