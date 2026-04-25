@@ -544,4 +544,12 @@ section, div {
 
 .botanical-item.active .botanical-info {
   display: block;
-}  
+}
+
+ .botanical-info {
+  display: none;
+}
+
+.botanical-item.active .botanical-info {
+  display: block;
+} 
