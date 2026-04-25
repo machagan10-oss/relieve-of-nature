@@ -524,3 +524,12 @@ section, div {
   font-size: 13px;
   color: #555;
 }  
+
+.botanical-info {
+  display: none;
+}
+
+.botanical-item {
+  cursor: pointer;
+  margin-bottom: 20px;
+}  
