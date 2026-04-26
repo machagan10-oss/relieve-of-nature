@@ -312,3 +312,15 @@ button:hover {
   background: #eaeaea;
   margin: 10px auto;
 }
+
+.botanicals h2 {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.botanical-item h3 {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
