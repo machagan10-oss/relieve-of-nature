@@ -303,3 +303,12 @@ button:hover {
 .botanical-item.active {
   background: #fafafa;
 }
+
+.botanical-item::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #eaeaea;
+  margin: 10px auto;
+}
