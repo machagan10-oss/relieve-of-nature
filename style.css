@@ -352,3 +352,8 @@ button:hover {
   color: #999;
   margin-top: 8px;
 }
+
+.botanical-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.12);
+}
