@@ -385,3 +385,9 @@ button:hover {
   opacity: 1;
   margin-top: 10px;
 }
+
+.botanicals {
+  background: #f9f9f7;
+  padding: 80px 20px;
+  border-radius: 20px;
+}
