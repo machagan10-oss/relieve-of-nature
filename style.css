@@ -402,3 +402,16 @@ button:hover {
   transform: translateY(-8px);
   box-shadow: 0 20px 45px rgba(0,0,0,0.12);
 }
+
+.featured-product {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #2c7a7b;
+  text-decoration: none;
+}
+
+.featured-product:hover {
+  text-decoration: underline;
+}
