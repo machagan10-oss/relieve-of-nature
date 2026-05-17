@@ -381,11 +381,10 @@ button:hover {
 
 /* ACTIVE STATE */
 .botanical-item.active .botanical-info {
-  max-height: 500px;
+  max-height: 1500px;
   opacity: 1;
   margin-top: 10px;
 }
-
 .botanicals {
   background: #f9f9f7;
   padding: 80px 20px;
