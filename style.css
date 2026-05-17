@@ -381,7 +381,7 @@ button:hover {
 
 /* ACTIVE STATE */
 .botanical-item.active .botanical-info {
-  max-height: 200px;
+  max-height: 500px;
   opacity: 1;
   margin-top: 10px;
 }
