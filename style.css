@@ -419,3 +419,47 @@ button:hover {
   margin: 4px 0;
   line-height: 1.4;
 }
+
+.science-botany {
+  background: #f9f9f7;
+  padding: 80px 20px;
+  margin: 80px auto;
+}
+
+.science-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.science-content h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.science-content h3 {
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.science-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.science-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+}
+
+.science-content li {
+  margin: 12px 0;
+  font-size: 16px;
+  color: #444;
+}
