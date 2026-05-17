@@ -415,3 +415,8 @@ button:hover {
 .featured-product:hover {
   text-decoration: underline;
 }
+
+.botanical-info p {
+  margin: 4px 0;
+  line-height: 1.4;
+}
