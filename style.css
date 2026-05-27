@@ -557,3 +557,24 @@ button:hover {
   font-weight: 500;
   color: #222;
 }
+.testimonial-card {
+  background: linear-gradient(to bottom, #ffffff, #f9f9f7);
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.06);
+  transition: all 0.35s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.1);
+}
+
+.testimonial-card p {
+  font-style: italic;
+}
+
+.testimonial-card h4 {
+  margin-top: 20px;
+  letter-spacing: 0.5px;
+}
