@@ -516,3 +516,44 @@ button:hover {
   font-size: 16px;
   color: #444;
 }
+
+.testimonials {
+  padding: 90px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background: #f9f9f7;
+  padding: 35px 25px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.testimonial-card p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.testimonial-card h4 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #222;
+}
