@@ -78,6 +78,9 @@ nav a:hover {
   box-shadow: 0 5px 15px rgba(0,0,0,0.08);
   cursor: pointer;
   transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .botanical-item:hover {
@@ -104,6 +107,7 @@ nav a:hover {
   padding-top: 15px;
   border-top: 1px solid var(--accent);
   animation: slideDown 0.3s ease;
+  flex-grow: 1;
 }
 
 .botanical-info p {
@@ -240,6 +244,12 @@ button:hover {
   margin: 80px auto;
   padding: 0 20px;
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  background: #f9f9f7;
+  border-radius: 20px;
+  padding: 80px 20px;
 }
 
 .botanicals h2 {
@@ -247,11 +257,17 @@ button:hover {
   font-weight: 500;
   margin-bottom: 10px;
   letter-spacing: 0.5px;
+  grid-column: 1 / -1;
+}
+
+.botanicals > p:first-of-type {
+  grid-column: 1 / -1;
+  color: #666;
+  margin-bottom: 40px;
 }
 
 .botanicals p {
   color: #666;
-  margin-bottom: 40px;
 }
 
 /* GRID */
@@ -270,6 +286,8 @@ button:hover {
   box-shadow: 0 10px 30px rgba(0,0,0,0.06);
   transition: all 0.35s ease;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 /* HOVER EFFECT */
@@ -292,6 +310,7 @@ button:hover {
   color: #555;
   margin-top: 10px;
   line-height: 1.6;
+  flex-grow: 1;
 }
 
 /* ACTIVE STATE */
@@ -313,93 +332,10 @@ button:hover {
   margin: 10px auto;
 }
 
-.botanicals h2 {
-  font-size: 32px;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
-
-.botanical-item h3 {
-  font-size: 15px;
-  letter-spacing: 1.5px;
-  font-weight: 500;
-}
-
-.botanical-info {
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: all 0.4s ease;
-  font-size: 13px;
-  color: #555;
-}
-
-/* ACTIVE STATE */
-.botanical-item.active .botanical-info {
-  max-height: 200px;
-  opacity: 1;
-  margin-top: 10px;
-}
-
-.botanicals {
-  background: #f9f9f7;
-  padding: 80px 20px;
-  border-radius: 20px;
-}
-
 .tap-hint {
   font-size: 11px;
   color: #999;
   margin-top: 8px;
-}
-
-.botanical-item:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 45px rgba(0,0,0,0.12);
-}
-
-.botanicals h2 {
-  font-size: 32px;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
-
-.botanical-item h3 {
-  font-size: 15px;
-  letter-spacing: 1.5px;
-  font-weight: 500;
-}
-
-.botanical-info {
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: all 0.4s ease;
-  font-size: 13px;
-  color: #555;
-}
-
-/* ACTIVE STATE */
-.botanical-item.active .botanical-info {
-  max-height: 1500px;
-  opacity: 1;
-  margin-top: 10px;
-}
-.botanicals {
-  background: #f9f9f7;
-  padding: 80px 20px;
-  border-radius: 20px;
-}
-
-.tap-hint {
-  font-size: 11px;
-  color: #999;
-  margin-top: 8px;
-}
-
-.botanical-item:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 45px rgba(0,0,0,0.12);
 }
 
 .featured-product {
@@ -539,25 +475,6 @@ button:hover {
 }
 
 .testimonial-card {
-  background: #f9f9f7;
-  padding: 35px 25px;
-  border-radius: 18px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-}
-
-.testimonial-card p {
-  font-size: 15px;
-  line-height: 1.8;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-.testimonial-card h4 {
-  font-size: 14px;
-  font-weight: 500;
-  color: #222;
-}
-.testimonial-card {
   background: linear-gradient(to bottom, #ffffff, #f9f9f7);
   padding: 40px 30px;
   border-radius: 20px;
@@ -572,11 +489,18 @@ button:hover {
 
 .testimonial-card p {
   font-style: italic;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
 }
 
 .testimonial-card h4 {
   margin-top: 20px;
   letter-spacing: 0.5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #222;
 }
 
 .luxury-footer {
@@ -695,8 +619,9 @@ button:hover {
 
 .botanical-image {
   width: 100%;
-  height: 180px;
+  aspect-ratio: 1 / 0.8;
   object-fit: cover;
   border-radius: 14px;
   margin-bottom: 18px;
+  display: block;
 }
