@@ -1,18 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cart</title>
+<title>Relieve of Nature</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-<img src="logo.jpg" alt="Relieve of Nature Logo" style="height:60px;">
-<nav>
-<a href="index.html">Home</a>
-<a href="shop.html">Shop</a>
+ <nav class="navbar">
+ <div class="logo">
+  <a href="index.html">
+    <img src="logo.jpg" alt="Relieve of Nature Logo" style="height:60px;">
+  </a>
+</div>
+
+  <div class="menu-toggle" onclick="toggleMenu()">
+    ☰
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="botanicals.html">Botanicals</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
 </nav>
 </header>
 
