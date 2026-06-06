@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/qr",
-      "destination": "/shop.html",
+      "source": "/r",
+      "destination": "/index.html",
       "permanent": false
     }
   ]
