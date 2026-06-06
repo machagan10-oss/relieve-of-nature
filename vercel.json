@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/qr",
+      "destination": "/shop.html",
+      "permanent": false
+    }
+  ]
+}
